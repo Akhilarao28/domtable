@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        var h_ele=document.getElementsByTagName("h1")
+        let name=prompt("enter a name")
+        h_ele[0].innerHTML=`${name}`
+        let table=document.createElement("table")
+        document.body.appendChild(table)
+        let first_row=document.createElement("tr") 
+        table.appendChild(first_row)
+        let th1=document.createElement("th")
+        first_row.appendChild(th1)
+        let th2=document.createElement("th")
+        first_row.appendChild(th2)
+        th1.innerText="s.no"
+        th2.innerText="name"
+        let second_row=document.createElement("tr")
+        table.appendChild(second_row)
+        let th3=document.createElement("th")
+        second_row.append(th3)
+        let th4=document.createElement("th")
+        second_row.append(th4)
+        th3.innerText=1
+        th4.innerText="akhila"
+        let third_row=document.createElement("tr")
+        table.appendChild(third_row)
+        let th5=document.createElement("th")
+        third_row.append(th5)
+        let th6=document.createElement("th")
+        third_row.append(th6)
+        th5.innerText=2
+        th6.innerText="adhya"
+        let fourth_row=document.createElement("tr")
+        table.appendChild(fourth_row)
+        let th7=document.createElement("th")
+        fourth_row.append(th7)
+        let th8=document.createElement("th")
+        fourth_row.append(th8)
+        th7.innerText=3
+        th8.innerText="ajay"
+        let fifth_row=document.createElement("tr")
+        table.appendChild(fifth_row)
+        let th9=document.createElement("th")
+        fifth_row.append(th9)
+        let th10=document.createElement("th")
+        fifth_row.append(th10)
+        th9.innerText=4
+        th10.innerText="hansith"
+        let sixth_row=document.createElement("tr")
+        table.appendChild(sixth_row)
+        let th11=document.createElement("th")
+        sixth_row.appendChild(th11)
+        let th12=document.createElement("th")
+        sixth_row.appendChild(th12)
+        th11.innerText=5
+        th12.innerText="akki"
+    </script>
+</body>
+</html>
